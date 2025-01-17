@@ -19,7 +19,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'https://allgates.vercel.app', // Reemplaza con la URL de tu frontend
+    origin: 'https://allgatesdemo.onrender.com', // Reemplaza con la URL de tu frontend
     methods: 'GET,POST,PUT,DELETE',
     allowedHeaders: 'Content-Type, Authorization'
 }));
